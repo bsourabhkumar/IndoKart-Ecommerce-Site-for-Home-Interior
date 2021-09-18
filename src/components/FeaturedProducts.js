@@ -9,7 +9,7 @@ import Loading from "./Loading";
 // import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
 import ArrowLeftOutlinedIcon from '@material-ui/icons/ArrowLeftOutlined';
 import ArrowRightOutlinedIcon from '@material-ui/icons/ArrowRightOutlined';
-import { FaSearch } from "react-icons/fa";
+// import { FaSearch } from "react-icons/fa";
 
 
 

@@ -62,10 +62,11 @@ const CartButtons = () => {
         <button
           type="button"
           className="auth-btn cart-btn"
-          onClick={closeSidebar}
+          
           onClick={() => {
-          clearCart()
-          logout({ returnTo: window.location.origin })}
+            closeSidebar();
+          clearCart();
+          logout({ returnTo: window.location.origin });}
           }
         >
           <MenuItem>
@@ -77,8 +78,8 @@ const CartButtons = () => {
         <button
           type="button"
           className="auth-btn cart-btn"
-          onClick={closeSidebar}
-          onClick={loginWithRedirect}
+        
+          onClick={()=> {loginWithRedirect(); closeSidebar();}}
         >
         
         <MenuItem>

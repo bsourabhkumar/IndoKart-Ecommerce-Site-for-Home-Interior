@@ -1,6 +1,6 @@
-import React, {useState, useRef} from 'react'
+import React, {useState} from 'react'
 import styled from "styled-components";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import { useUserContext } from "../context/user_context";
 import { useAddressContext } from '../context/address_context';
 // import {useForm} from 'react-hook-form'

@@ -12,7 +12,7 @@ import IndoKart from "../assets/IndoKart.svg";
 const Sidebar = () => {
   const { myUser } = useUserContext();
   const { isSidebarOpen, closeSidebar } = useProductsContext();
-  const isOpen = false;
+  // const isOpen = false;
   return (
     <SidebarContainer>
       <aside

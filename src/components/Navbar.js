@@ -1,20 +1,20 @@
-import React, {useState} from "react";
+import React from "react";
 import styled from "styled-components";
 import IndoKart from "../assets/IndoKart.svg";
 import { FaBars } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import { links } from "../utils/constants";
-import SearchIcon from '@material-ui/icons/Search';
+// import { links } from "../utils/constants";
+// import SearchIcon from '@material-ui/icons/Search';
 import CartButtons from "./CartButtons";
-import CloseIcon from '@material-ui/icons/Close';
+// import CloseIcon from '@material-ui/icons/Close';
 import { useProductsContext } from "../context/products_context";
 import { useUserContext } from "../context/user_context";
-import { FaShoppingCart, FaUserMinus, FaUserPlus } from "react-icons/fa";
-import FavoriteIcon from '@material-ui/icons/Favorite';
+// import { FaShoppingCart, FaUserMinus, FaUserPlus } from "react-icons/fa";
+// import FavoriteIcon from '@material-ui/icons/Favorite';
 
 const Nav = () => {
-    const [input, setInput] = useState(false)
-    const [value, setValue]= useState("")
+    // const [input, setInput] = useState(false)
+    // const [value, setValue]= useState("")
     
     const { openSidebar } = useProductsContext();
     const { myUser } = useUserContext();
@@ -73,27 +73,27 @@ const Nav = () => {
     </NavContainer>)
 }
 
-const SearchContainer = styled.div`
+// const SearchContainer = styled.div`
     
-    border: 0.5px solid lightgray;
-    display: flex;
-    align-items: center;
-    margin-left: 25px;
-    padding: 5px;
-    width: 20vw;
-    justify-content: space-between ;
-    .color{
-        border: none;
-        outline: none;
-    }
-    .icon{
-        cursor: pointer;
-        color: gray;
-        font-size: 20px;
-        margin: 2px;
-    }
+//     border: 0.5px solid lightgray;
+//     display: flex;
+//     align-items: center;
+//     margin-left: 25px;
+//     padding: 5px;
+//     width: 20vw;
+//     justify-content: space-between ;
+//     .color{
+//         border: none;
+//         outline: none;
+//     }
+//     .icon{
+//         cursor: pointer;
+//         color: gray;
+//         font-size: 20px;
+//         margin: 2px;
+//     }
 
-    `
+//     `
 
 const Language = styled.span`
     img{

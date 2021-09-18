@@ -1,9 +1,9 @@
 import {
-    Facebook,
-    Instagram,
+    
+    
     MailOutline,
     Phone,
-    Pinterest,
+    
     Room,
     Twitter,
     GitHub,
@@ -140,16 +140,16 @@ import {
           </Desc>
           <SocialContainer>
             <SocialIcon style={{cursor:"pointer"}}  color="3B5999">
-            <a href="https://github.com/bsourabhkumar" target="_blank"><GitHub /></a>
+            <a href="https://github.com/bsourabhkumar" rel="noreferrer" target="_blank"><GitHub /></a>
             </SocialIcon>
             {/* <SocialIcon style={{cursor:"pointer"}} color="E4405F">
               <Instagram />
             </SocialIcon> */}
             <SocialIcon style={{cursor:"pointer"}} color="55ACEE">
-            <a href="https://twitter.com/Sourabh6605286" target="_blank"><Twitter /></a>
+            <a href="https://twitter.com/Sourabh6605286" rel="noreferrer" target="_blank"><Twitter /></a>
             </SocialIcon>
             <SocialIcon style={{cursor:"pointer"}} color="E60023">
-              <a href="https://www.linkedin.com/in/sourabh-kumar-69bab8136/" target="_blank"><LinkedIn /></a>
+              <a href="https://www.linkedin.com/in/sourabh-kumar-69bab8136/" rel="noreferrer" target="_blank"><LinkedIn /></a>
             </SocialIcon>
           </SocialContainer>
         </Left>

@@ -1,20 +1,20 @@
 import React from 'react'
 import styled from "styled-components";
-import { useFilterContext } from "../context/filter_context";
-import { getUniqueValues } from "../utils/helpers";
+// import { useFilterContext } from "../context/filter_context";
+// import { getUniqueValues } from "../utils/helpers";
 import CategoryItem from "./CategoryItem"
 import {categories} from "../utils/constants"
 
 const FeaturedCategories = () => {
-    const {
-        filters: {
-          category,
-          company,
-        },
-        updateFilters,
+    // const {
+    //     filters: {
+    //       category,
+    //       company,
+    //     },
+    //     updateFilters,
        
-        all_products
-      } = useFilterContext();
+    //     all_products
+    //   } = useFilterContext();
     
     //   const categories = getUniqueValues(all_products, "category");
     //   const companies = getUniqueValues(all_products, "company");

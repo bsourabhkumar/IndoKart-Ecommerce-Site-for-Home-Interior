@@ -1,19 +1,19 @@
 import React from 'react'
 import styled from "styled-components";
 import { Link } from 'react-router-dom';
-import { useFilterContext } from "../context/filter_context";
+// import { useFilterContext } from "../context/filter_context";
 
 const CategoryItem = ({item}) => {
-    const {
-        filters: {
-          category,
-          company,
-        },
-        updateFilters,
-        filtersFromCategories,
+    // const {
+    //     filters: {
+    //       category,
+    //       company,
+    //     },
+    //     updateFilters,
+    //     filtersFromCategories,
        
-        all_products
-      } = useFilterContext();
+    //     all_products
+    //   } = useFilterContext();
     return (
         <Container>
             <Image src={item.image} alt="category-img" />
@@ -103,15 +103,15 @@ const Info = styled.div`
     }
 
 `
-const Title = styled.h1`
-     color: white;
-     margin-bottom: 20px;
-     @media (max-width: 768px){
-         margin-bottom: 5px;
-         margin-right: 0;
-         margin-left: 0;
-     }
-`
+// const Title = styled.h1`
+//      color: white;
+//      margin-bottom: 20px;
+//      @media (max-width: 768px){
+//          margin-bottom: 5px;
+//          margin-right: 0;
+//          margin-left: 0;
+//      }
+// `
 const Button = styled.button`
     border: none;
     padding: 10px;
