@@ -63,7 +63,7 @@ const CheckoutForm = () => {
     createPaymentIntent();
     // eslint-disable-next-line
 
-  }, [createPaymentIntent])
+  }, [])
 
   const handleChange = async (event)=>{
     setDisabled(event.empty)
