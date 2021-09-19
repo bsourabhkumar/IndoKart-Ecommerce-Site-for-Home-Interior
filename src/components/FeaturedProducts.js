@@ -133,7 +133,8 @@ const ImgContainer = styled.div`
 
   object-fit: contain ;
   @media (max-width: 768px){
-    width: 90%;
+    width: 90vw;
+    margin-right: 0.02vw;
     margin-bottom: 0;
     padding-bottom: 0;
     
@@ -161,7 +162,7 @@ const Image = styled.img`
   width: 70%;
   margin-left: 5vw;
   @media (max-width: 768px){
-    width: 60vw;
+    width: 67vw;
   }
 
 `
@@ -214,12 +215,12 @@ const Container = styled.div`
   transition: all 1.5s ease;
 
   @media (max-width: 768px){
-    width: 90vw;
+    width: 95vw;
     height: 80vh;
     /* margin-bottom: 10vh; */
     margin-bottom: 20vh;
     padding-bottom: 20vh;
-    margin-right: 0;
+    margin-right: -2vw;
   }
 `
 const Arrow = styled.div`

@@ -19,8 +19,8 @@ const Sidebar = () => {
         className={`${isSidebarOpen ? "show-sidebar sidebar" : "sidebar"}`}
       >
         <div className="sidebar-header">
-          <Link to="/">
-          <img src={IndoKart} alt="indokart" />
+          <Link to="/" >
+          <img className="logo" src={IndoKart} alt="indokart" />
           </Link>
           <button className="close-btn" type="button" onClick={closeSidebar}>
             <FaTimes />
@@ -72,8 +72,9 @@ const SidebarContainer = styled.div`
     color: var(--clr-red-light);
   }
   .logo {
-    justify-self: center;
-    height: 45px;
+    justify-self: left;
+    height: 8vh;
+    margin-bottom: 2vh;
   }
   .links {
     margin-bottom: 2rem;
